@@ -1,35 +1,31 @@
-# Gesture Controlled Mouse
+#  AI Gesture Controlled Mouse
 
-Control your computer using hand gestures with a webcam.
+Control your computer using hand gestures in real-time using MediaPipe and OpenCV.
 
-## Features
-- Cursor movement
-- Left click
-- Right click
-- Drag
-- Scroll
-- Gesture detection
-- FPS counter
+---
 
-## Technologies
+##  Features
+
+- Cursor movement using index finger
+- Left click using pinch gesture
+- Right click using ring + thumb
+- Double click using index + middle
+- Smooth cursor control (anti-jitter)
+- Pause/Resume system (Press **P**)
+- Real-time FPS display
+
+---
+
+##  Tech Stack
+
 - Python
 - OpenCV
 - MediaPipe
 - PyAutoGUI
 
-## Installation
+---
 
+##  Installation
+
+```bash
 pip install -r requirements.txt
-
-## Run
-
-python main.py
-
-## Controls
-
-| Gesture | Action |
-|-------|-------|
-Index finger move | Move cursor |
-Thumb + Index pinch | Left click |
-Thumb + Ring pinch | Right click |
-Wrist movement | Scroll |
